@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Oxide.Core" Version="2.0.3988" />
+    <PackageReference Include="Oxide.References" Version="2.0.3774" />
+    <PackageReference Include="Oxide.Rust" Version="2.0.4715" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>C:\rustserver\RustDedicated_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Console">
+      <HintPath>..\..\..\..\..\..\rustserver\RustDedicated_Data\Managed\Facepunch.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Network">
+      <HintPath>C:\rustserver\RustDedicated_Data\Managed\Facepunch.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.System">
+      <HintPath>C:\rustserver\RustDedicated_Data\Managed\Facepunch.System.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.UnityEngine">
+      <HintPath>C:\rustserver\RustDedicated_Data\Managed\Facepunch.UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Rust.Global">
+      <HintPath>C:\rustserver\RustDedicated_Data\Managed\Rust.Global.dll</HintPath>
+    </Reference>
+    <Reference Include="Rust.Data">
+      <HintPath>C:\rustserver\RustDedicated_Data\Managed\Rust.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Rust.Localization">
+      <HintPath>C:\rustserver\RustDedicated_Data\Managed\Rust.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\rustserver\RustDedicated_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
